@@ -1,18 +1,19 @@
 <div align="center">
-<img src="../bazarApp/public/logo-bazar.svg"></img>
+<img src="public/logo-bazar.svg"></img>
 
 <h1>Bazar Tech</h1>
-</div>
-
 Este projeto foi feito com o intuito de treinar os conceitos básicos de REACT usando o VITE.
-
-<div align="center"> 
-<img src="../bazarApp/src/assets/react.svg"></img>
-<p>➕</p>
-<img src="../bazarApp/public/vite.svg"></img>
 </div>
-
-<img src="../bazarApp/src/assets/mockup.png" />
+<br/>
+<div align="center"> 
+<img src="src/assets/react.svg"></img>
+<p>➕</p>
+<img src="/public/vite.svg"></img>
+</div>
+<br/>
+<div align="center">
+  <img src="src/assets/mockup.png" />
+</div>
 <hr>
 <h2>Requisitos 📝</h2>
 <ul>
