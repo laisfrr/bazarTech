@@ -54,3 +54,7 @@
   flex-wrap: wrap;
   font-weight: bold;
 }
+
+.rodape-copy {
+  text-align: center;
+}
