@@ -16,7 +16,9 @@ function Rodape() {
           </a>
         </article>
       </section>
-      <p>© 2024-2025 Bazar Tech.Todos os direitos reservados.</p>
+      <p className="rodape-copy">
+        © 2024-2025 Bazar Tech.Todos os direitos reservados.
+      </p>
       <section className="rodape-atendimento">
         <p className="rodape-contato">Contato</p>
         <strong>
