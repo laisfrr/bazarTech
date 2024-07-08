@@ -15,6 +15,8 @@ Este projeto foi feito com o intuito de treinar os conceitos básicos de REACT u
   <img src="src/assets/mockup.png" />
 </div>
 <hr>
+<strong>Deploy: https://bazar-tech-ten.vercel.app/</strong>
+<hr>
 <h2>Requisitos 📝</h2>
 <ul>
   <li>Componentes</li>
