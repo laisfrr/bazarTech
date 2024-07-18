@@ -1,7 +1,10 @@
-section {
+.banner-contain {
+  display: flex;
   box-size: border-box;
+  height: 250px;
 }
 
-img {
-  width: 100%;
+.imagem-banner {
+  width: 50%;
+  height: 100%;
 }

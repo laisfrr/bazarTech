@@ -1,5 +1,6 @@
-import Card from './Card'
-import './Galeria.css'
+// import './Galeria.css'
+import CardProdutos from './CardProduct.jsx'
+import Card from 'react-bootstrap/Card'
 
 const produtos = [
   {
@@ -11,7 +12,7 @@ const produtos = [
   },
   {
     id: 2,
-    nome: 'Placa de Vídeo RTX 4060 O8G V2 Gaming ATS ASUS NVIDIA GeForce',
+    nome: 'Placa de Vídeo RTX 4060 O8G V2 Gaming ATS ASUS GeForce ...',
     imagem: '/placa-video.jpg',
     desconto: 10,
     preco: 1500.99
@@ -34,7 +35,7 @@ const produtos = [
 function Galeria(props) {
   const listarCards = produtos.map(produto => {
     return (
-      <Card
+      <CardProdutos
         key={produto.id}
         nome={produto.nome}
         imagem={produto.imagem}
@@ -44,12 +45,18 @@ function Galeria(props) {
     )
   })
   return (
-    <section className="galeria-container">
-      <h2 className="galeria-titulo">Produtos</h2>
-      <div className="galeria-separador"></div>
-      <article className="galeria-cards">{listarCards}</article>
-      <div className="galeria-separador"></div>
-    </section>
+    <main className="container-galeria">
+      <Card className="card-galeria align-items-center border-0 p-0 ">
+        <Card.Header className="border-0 bg-white">
+          <Card.Title as="h3" className="d-flex galeria-titulo">
+            Produtos
+          </Card.Title>
+        </Card.Header>
+        <Card.Body className="d-flex align-items-center gap-5 flex-wrap body-card">
+          {listarCards}
+        </Card.Body>
+      </Card>
+    </main>
   )
 }
 
